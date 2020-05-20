@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <meta charset="utf-8" />
+</head>
+
+<body style="overflow:hidden;">
+  <div></div>
+
+  <script>
+    var RELEASE = false;
+    var VERSION = Math.floor(Date.now() / 1000);
+    var _loaderLoaded = function () { load(VERSION); }
+
+    var _element = document.createElement('script');
+    _element.setAttribute("type", "text/javascript");
+    _element.setAttribute("src", "loader.js?v=" + VERSION);
+    _element.onreadystatechange = _loaderLoaded;
+    _element.onload = _loaderLoaded;
+    document.head.appendChild(_element);
+
+  </script>
+
+</body>
+
+</html>

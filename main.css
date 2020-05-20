@@ -1,0 +1,91 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* LOCAL */
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.5;
+    height: 100%;
+    overflow: hidden;
+}
+html {
+    overflow-x: hidden
+}
+/* div{
+    display: flex;
+     flex-flow: column;
+} */
+
+.main {
+    width: 100%;
+    background: blue;
+    overflow: hidden;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    outline: none;
+}
+img{
+    visibility: hidden;
+}
+
+.column-one-third { width: 33.33%; width: calc(100%/3); }
+.column-two-third { width: 66.66%; width: calc(200%/3); }
+.column-one-quarter { width: 25%; }
+.column-two-quarter { width: 50%; }
+.column-three-quarter { width: 75%; }
+.column-one-half { width: 50%; }
+.column-full { width: 100%; }
+.em-table tr:last-child td {
+  border-bottom: 0px solid #ddd!important
+}
