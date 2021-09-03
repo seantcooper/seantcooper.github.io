@@ -91,7 +91,7 @@
 
         var RELEASE = false;
         var VERSION = Math.floor(Date.now() / 1000);
-        var PATH = "voxel/";
+        var VURI = ""; //"?v=" + VERSION
         var loadCount = 0;
 
         console.log(VERSION);
@@ -111,106 +111,36 @@
 
         function loadJS(src) {
             var element = document.createElement('script');
-            element.src = src + "?v=" + VERSION;
+            element.src = src + VURI;
             element.onload = function () { loaded(src); };
             element.async = true;
             document.head.appendChild(element);
             loadCount++;
         }
+
         function loadCSS(src) {
             var element = document.createElement('link');
-            element.href = src + "?v=" + VERSION;
+            element.href = src + VURI;
             element.onload = function () { loaded(src); };
             element.rel = "stylesheet";
             element.type = "text/css";
             document.head.appendChild(element);
             loadCount++;
         }
+
         function loadImage(src) {
             var element = document.createElement('img');
             element.id = src;
-            element.src = src + "?v=" + VERSION;
+            element.src = src + VURI;
             element.onload = function () { loaded(src); };
             document.head.appendChild(element);
             loadCount++;
         }
 
-        loadCSS(PATH + "main.css");
-        loadImage(PATH + "images/icons.png");
-        loadImage(PATH + "images/landscape.png");
+        loadCSS("main.css");
+        loadImage("images/icons.png");
+        loadImage("images/landscape.png");
 
-        // loadJS("source/system/Debug.js");
-
-        // loadJS("source/data/Dictionary.js");
-        // loadJS("source/data/Array.js");
-        // loadJS("source/data/Array3.js");
-        // loadJS("source/data/Object3.js");
-
-        // loadJS("source/system/EventDispatcher.js");
-        // loadJS("source/system/File.js");
-
-        // loadJS("source/display/Color.js");
-        // loadJS("source/display/Display.js");
-        // loadJS("source/display/FPS.js");
-        // loadJS("source/display/Mouse.js");
-        // loadJS("source/display/Spritesheet.js");
-        // loadJS("source/display/HCanvas.js");
-
-        // loadJS("source/geom/Rect.js");
-        // loadJS("source/geom/Math.js");
-        // loadJS("source/geom/Matrix4.js");
-        // loadJS("source/geom/Vector3.js");
-        // loadJS("source/geom/Shape3d.js");
-        // loadJS("source/geom/Vertex.js");
-
-        // loadJS("source/ui/UIControl.js");
-        // loadJS("source/ui/UIControls.js");
-        // loadJS("source/ui/UITextInput.js");
-        // loadJS("source/ui/UISlider.js");
-        // loadJS("source/ui/UILayout.js");
-        // loadJS("source/ui/UITabs.js");
-        // loadJS("source/ui/UIColorPicker.js");
-        // loadJS("source/ui/UIStage.js");
-        // loadJS("source/ui/UITooltip.js");
-        // loadJS("source/ui/UIFolder.js");
-
-        // loadJS("source/voxel/gl/GLRegion.js");
-        // loadJS("source/voxel/gl/GLBuffer.js");
-        // loadJS("source/voxel/gl/GLRender.js");
-        // loadJS("source/voxel/gl/GLContainer.js");
-        // loadJS("source/voxel/gl/Camera.js");
-
-        // loadJS("source/voxel/geom/Constants.js");
-        // loadJS("source/voxel/geom/Palette.js");
-        // loadJS("source/voxel/geom/Map3.js");
-        // loadJS("source/voxel/geom/Map3Edit.js");
-        // loadJS("source/voxel/geom/Map3Node.js");
-        // loadJS("source/voxel/geom/Map3Region.js");
-        // loadJS("source/voxel/geom/Map3Mesh.js");
-        // loadJS("source/voxel/geom/Map3Grid.js");
-        // loadJS("source/voxel/geom/Map3Shape.js");
-
-        // loadJS("source/voxel/edit/Editor.js");
-        // loadJS("source/voxel/edit/VXScratch.js");
-        // loadJS("source/voxel/edit/VXTool.js");
-        // loadJS("source/voxel/edit/History.js");
-        // loadJS("source/voxel/edit/Map3Thumbnail.js");
-
-        // loadJS("source/voxel/edit/tools/UITool.js");
-        // loadJS("source/voxel/edit/tools/TLFill.js");
-        // loadJS("source/voxel/edit/tools/TLPaint.js");
-        // loadJS("source/voxel/edit/tools/TLPicker.js");
-        // loadJS("source/voxel/edit/tools/TLPushPull.js");
-        // loadJS("source/voxel/edit/tools/TLSelection.js");
-        // loadJS("source/voxel/edit/tools/TLShapeDraw.js");
-        // loadJS("source/voxel/edit/tools/TLEdit.js");
-
-        // loadJS("source/game/Models.js");
-        // loadJS("source/game/Map.js");
-        // loadJS("source/game/Game.js");
-        // loadJS("source/game/Landscape.js");
-
-        // loadJS("main.js");
     </script>
 </head>
 
