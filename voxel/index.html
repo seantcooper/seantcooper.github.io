@@ -91,6 +91,7 @@
 
         var RELEASE = false;
         var VERSION = Math.floor(Date.now() / 1000);
+        var PATH = "voxel/";
         var loadCount = 0;
 
         console.log(VERSION);
@@ -134,9 +135,9 @@
             loadCount++;
         }
 
-        loadCSS("main.css");
-        loadImage("images/icons.png");
-        loadImage("images/landscape.png");
+        loadCSS(PATH + "main.css");
+        loadImage(PATH + "images/icons.png");
+        loadImage(PATH + "images/landscape.png");
 
         // loadJS("source/system/Debug.js");
 
