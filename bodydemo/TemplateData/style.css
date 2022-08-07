@@ -34,6 +34,12 @@ body {
   display: none
 }
 
+#didimo-logo {
+  width: 154px;
+  height: 130px;
+  background: url('didimo-logo-dark.png') no-repeat center
+}
+
 #unity-logo {
   width: 154px;
   height: 130px;
