@@ -69,9 +69,6 @@
     <type fullname="pigbrain.Core.Statistics.GoogleSheetData/Events" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Core.Statistics.GoogleSheetData/SheetIdName" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Core.UnityObject.ResetNavMeshAgent" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Core.UnityObject.ResetParticleSystem" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Core.UnityObject.ResetTrailRenderer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
@@ -150,7 +147,6 @@
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.LensDistortion" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
