@@ -1,118 +1,135 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="pigbrain.Core.AI.MassForce" preserve="all" />
-    <type fullname="pigbrain.Core.AI.NavAgentForce" preserve="all" />
-    <type fullname="pigbrain.Core.Graphics.CullingGroupItem" preserve="all" />
-    <type fullname="pigbrain.Core.Graphics.CullingGroupManager" preserve="all" />
-    <type fullname="pigbrain.Core.Graphics.SpriteMeshRenderer" preserve="all" />
-    <type fullname="pigbrain.Core.Statistics.GoogleSheetData" preserve="all" />
-    <type fullname="pigbrain.Core.UnityObject.PoolGroup" preserve="all" />
-    <type fullname="pigbrain.Core.UnityObject.TriggerDestroy" preserve="all" />
-    <type fullname="pigbrain.Core.UnityObject.TriggerMessages" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.ActiveRoom" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.AudioClips" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.AudioManager" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.AudioTrack" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.Music" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.Sequencer" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.CameraShake" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.CommandAdd" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.CommandCreate" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.CommandSetValue" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.CommandStatModify" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.EffectExplosion" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.EffectTrigger" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Enemy" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.BootStrap" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.Door" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.LevelData" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.PrefabList" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.RoomBuilder" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.RoomItem" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.RoomLayout" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.RoomPrefabs" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Ghost" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Health" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.HealthBar" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.HitEffectMesh" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.MoneyDrop" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Navigation.NavMap" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Navigation.NavMapExclude" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Navigation.NavMapLayerFear" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Navigation.NavMapLayerMove" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Navigation.NavMeshAgentController" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Navigation.NavMeshAgentState" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Navigation.Turret" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.OrthoCamera" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Pickup" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Player" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.ShotBullet" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.ShotGrenade" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.ShotLaser" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.ShotMove" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.ShotPlacement" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.SpawnerShape" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.Stats" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.StatsCollection" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.StatsController" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.StatsObjectTrack" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Targeting" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Trap" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.UI.TMP_Message" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.Weapon" preserve="all" />
-    <type fullname="pigbrain.Game.Boxhead.WeaponCache" preserve="all" />
+    <type fullname="AltitudeDestroy" preserve="all" />
+    <type fullname="pigbrain.core.AI.MassForce" preserve="all" />
+    <type fullname="pigbrain.core.AI.NavAgentForce" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.Billboard" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.CullingGroupItem" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetData" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ActiveRoom" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Audio.AudioClips" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Audio.AudioManager" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Audio.AudioTrack" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Audio.Music" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Audio.Sequencer" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CameraShake" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CommandAdd" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CommandCreate" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CommandStatModify" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.EffectExplosion" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.EffectTrigger" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Enemy" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.BootStrap" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.LevelData" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.PrefabList" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.RoomItem" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.RoomLayout" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.RoomPrefabs" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.VolumeBlending" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Ghost" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Health" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.HealthBar" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.HitEffectMesh" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.MoneyDrop" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMap" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMapDynamicModifier" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerFear" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerFearItem" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerMove" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMeshAgentController" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMeshAgentState" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.OrthoCamera" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Pickup" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.PickupSwitch" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Player" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ShotBullet" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ShotGrenade" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ShotLaser" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ShotMove" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ShotPlacement" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ShotShield" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.SpawnerShape" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.Stats" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.StatsCollection" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.StatsController" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.StatsObjectTrack" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Targeting" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Trap" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.UI.EdgeMarker" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.UI.MessageTickerData" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Weapon" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.WeaponCache" preserve="all" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView" preserve="all" />
     <type fullname="PingPong" preserve="all" />
     <type fullname="ReadRotation" preserve="all" />
-    <type fullname="pigbrain.Core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Core.Statistics.GoogleSheetData/Events" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Core.Statistics.GoogleSheetData/SheetIdName" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.CommandCreate/Spread" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.CommandSetValue/TypeProperty" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EffectTrigger/Events" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EnemyAttack" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EnemyDead" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EnemyEnrage" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EnemyExplode" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EnemyGrow" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EnemyMove" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.EnemyRainOfFire" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.LevelData/Events" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.LevelData/Level" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.LevelData/Level/Item" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.PrefabList/Info" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.PrefabList/PrefabContainer" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.RoomBuilder/Events" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Environment.RoomBuilder/PrefabSet" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.PlayerControl" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.PlayerDead" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.PlayerFollow" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.Stats/Value" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.StatsController/StatProperty" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.StatsLink" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.StatsObjectTrack/Tracker" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Statistic.Upgrade/UStat" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Target" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Trap/Activation" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Trap/Particles" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Trap/Spikes" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Trap/Weapon" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView/ButtonAddView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView/ButtonRemoveView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/AmmoInfinityView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/AmmoView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/IconView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/KeyView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/TitleView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level1View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level2View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level3View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level4View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level5View" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/OutlineView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.AudioClips/Clip" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.AudioClips/ClipContainer" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.Music/MusicTrack" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Game.Boxhead.Audio.Sequencer/Sequence" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetData/Events" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetData/SheetIdName" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.CommandCreate/Spread" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EffectTrigger/Events" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EnemyAttack" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EnemyDead" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EnemyEnrage" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EnemyExplode" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EnemyGrow" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EnemyMove" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.EnemyRainOfFire" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Events" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level/Item" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/Info" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/PrefabContainer" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder/Events" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder/PrefabSet" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.PlayerControl" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.PlayerDead" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.PlayerDemo" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.PlayerFind" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.PlayerFollow" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.PlayerLeave" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.ShotPlacement/Barrier" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.ShotPlacement/Fused" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.ShotPlacement/Turret" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.Stats/Value" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.StatsController/StatProperty" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.StatsLink" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.StatsObjectTrack/Tracker" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.Upgrade/UStat" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Target" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Trap/Activation" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Trap/Particles" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Trap/Spikes" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Trap/Weapon" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Audio.AudioClips/Clip" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Audio.AudioClips/ClipContainer" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Audio.Music/MusicTrack" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Audio.Sequencer/Sequence" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -179,7 +196,6 @@
     <type fullname="UnityEngine.AI.NavMeshObstacle" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Animation" preserve="all" />
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
@@ -227,10 +243,17 @@
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">

@@ -57,16 +57,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/G.loader.js";
+      var loaderUrl = buildUrl + "/Boxhead.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/G.data.unityweb",
-        frameworkUrl: buildUrl + "/G.framework.js.unityweb",
-        codeUrl: buildUrl + "/G.wasm.unityweb",
+        dataUrl: buildUrl + "/Boxhead.data.unityweb",
+        frameworkUrl: buildUrl + "/Boxhead.framework.js.unityweb",
+        codeUrl: buildUrl + "/Boxhead.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "pigbrain.io",
         productName: "Boxhead",
-        productVersion: "0.1.93",
+        productVersion: "0.2.33",
         showBanner: unityShowBanner,
       };
 
@@ -87,6 +87,11 @@
 
 
       loadingBar.style.display = "block";
+
+      // ByteBrew SDK
+      var bb = document.createElement("script");
+      bb.src = "https://cdn.bytebrew.io/sdk/bytebrew.js";
+      document.body.appendChild(bb);
 
       var script = document.createElement("script");
       script.src = loaderUrl;
