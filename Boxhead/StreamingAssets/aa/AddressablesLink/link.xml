@@ -8,6 +8,7 @@
     <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
     <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetData" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
@@ -36,15 +37,17 @@
     <type fullname="pigbrain.game.Boxhead.Health" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.HealthBar" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.HitEffectMesh" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.MoneyDrop" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMapDynamicModifier" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerFear" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerFearItem" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerMove" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerMoveItem" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMeshAgentController" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMeshAgentState" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.OrthoCamera" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.PadPurchase" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.PadSwitch" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Pickup" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.PickupSwitch" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Player" preserve="all" />
@@ -65,6 +68,7 @@
     <type fullname="pigbrain.game.Boxhead.UI.MessageTickerData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Weapon" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.WeaponCache" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.WeaponCarry" preserve="all" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView" preserve="all" />
     <type fullname="PingPong" preserve="all" />
     <type fullname="ReadRotation" preserve="all" />
@@ -119,6 +123,7 @@
     <type fullname="pigbrain.game.Boxhead.Statistic.Stats/Value" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Statistic.StatsController/StatProperty" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Statistic.StatsLink" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Statistic.StatsLinkSingle" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Statistic.StatsObjectTrack/Tracker" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Statistic.Upgrade/UStat" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Target" preserve="nothing" serialized="true" />
@@ -159,12 +164,10 @@
     <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Vector4Parameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.BloomFilterModeParameter" preserve="nothing" serialized="true" />
