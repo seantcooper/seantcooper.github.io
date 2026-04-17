@@ -9,6 +9,7 @@
     <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetData" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
@@ -21,12 +22,14 @@
     <type fullname="pigbrain.game.Boxhead.CameraShake" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandAdd" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CommandSetValue" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandStatModify" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.EffectExplosion" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.EffectTrigger" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Enemy" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.BootStrap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.LevelData" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.ObjectList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomItem" preserve="all" />
@@ -96,6 +99,7 @@
     <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Spread" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.CommandSetValue/TypeProperty" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EffectTrigger/Events" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyAttack" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyDead" preserve="nothing" serialized="true" />
@@ -168,10 +172,12 @@
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.BloomFilterModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -210,6 +216,7 @@
     <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
@@ -240,6 +247,7 @@
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.PhysicsMaterial" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
