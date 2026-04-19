@@ -7,6 +7,8 @@
     <type fullname="pigbrain.core.Graphics.CullingGroupItem" preserve="all" />
     <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
     <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetData" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
@@ -24,10 +26,12 @@
     <type fullname="pigbrain.game.Boxhead.CommandCreate" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandSetValue" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandStatModify" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.DamageVolume" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.EffectExplosion" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.EffectTrigger" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Enemy" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.BootStrap" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.DoorLock" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.LevelData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.ObjectList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList" preserve="all" />
@@ -256,6 +260,7 @@
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
