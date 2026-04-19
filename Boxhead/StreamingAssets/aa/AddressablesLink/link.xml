@@ -7,6 +7,7 @@
     <type fullname="pigbrain.core.Graphics.CullingGroupItem" preserve="all" />
     <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
     <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
+    <type fullname="pigbrain.core.Motion.AudioEvent" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetData" preserve="all" />
