@@ -8,9 +8,10 @@
     <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
     <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
     <type fullname="pigbrain.core.Motion.AudioEvent" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionAxisMove" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionBounce" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
-    <type fullname="pigbrain.core.Statistics.GoogleSheetData" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
@@ -23,6 +24,7 @@
     <type fullname="pigbrain.game.Boxhead.Audio.Music" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Audio.Sequencer" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CameraShake" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CardData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandAdd" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandSetValue" preserve="all" />
@@ -33,7 +35,6 @@
     <type fullname="pigbrain.game.Boxhead.Enemy" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.BootStrap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.DoorLock" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Environment.LevelData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.ObjectList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder" preserve="all" />
@@ -45,6 +46,7 @@
     <type fullname="pigbrain.game.Boxhead.Health" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.HealthBar" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.HitEffectMesh" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Invincible" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMapDynamicModifier" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Navigation.NavMapLayerFear" preserve="all" />
@@ -74,12 +76,25 @@
     <type fullname="pigbrain.game.Boxhead.Trap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.UI.EdgeMarker" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.UI.MessageTickerData" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.UI.UIItems" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Weapon" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.WeaponCache" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.WeaponCarry" preserve="all" />
+    <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView" preserve="all" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView" preserve="all" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView" preserve="all" />
-    <type fullname="PingPong" preserve="all" />
     <type fullname="ReadRotation" preserve="all" />
+    <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView/IconView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelDescriptionView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelDescriptionView/TextDescriptionView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelIconView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelStatsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelStatsView/TextStatsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelTitleView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelTitleView/TextTitleView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView/ButtonAddView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView/ButtonRemoveView" preserve="nothing" serialized="true" />
@@ -87,6 +102,7 @@
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/AmmoInfinityView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/AmmoView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/IconView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/ReloadView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/TitleView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level1View" preserve="nothing" serialized="true" />
@@ -97,9 +113,6 @@
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/OutlineView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Statistics.GoogleSheetData/Events" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Statistics.GoogleSheetData/SheetIdName" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
@@ -113,9 +126,6 @@
     <type fullname="pigbrain.game.Boxhead.EnemyGrow" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyMove" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyRainOfFire" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Events" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level/Item" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/Info" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/PrefabContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder/Events" preserve="nothing" serialized="true" />
@@ -243,7 +253,6 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RenderingLayerMask" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
