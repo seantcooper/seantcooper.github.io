@@ -35,6 +35,7 @@
     <type fullname="pigbrain.game.Boxhead.Enemy" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.BootStrap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.DoorLock" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.LevelData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.ObjectList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder" preserve="all" />
@@ -113,6 +114,7 @@
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/OutlineView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
@@ -126,6 +128,8 @@
     <type fullname="pigbrain.game.Boxhead.EnemyGrow" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyMove" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyRainOfFire" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level/Item" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/Info" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/PrefabContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder/Events" preserve="nothing" serialized="true" />
