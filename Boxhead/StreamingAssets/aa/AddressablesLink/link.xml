@@ -7,12 +7,15 @@
     <type fullname="pigbrain.core.Graphics.CullingGroupItem" preserve="all" />
     <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
     <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
+    <type fullname="pigbrain.core.Localization.LocalizationData" preserve="all" />
+    <type fullname="pigbrain.core.Localization.LocalizationObject" preserve="all" />
+    <type fullname="pigbrain.core.Localization.LocalizationText" preserve="all" />
     <type fullname="pigbrain.core.Motion.AudioEvent" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionAxisMove" preserve="all" />
-    <type fullname="pigbrain.core.Motion.MotionBounce" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.AssetIdentity" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
@@ -24,7 +27,6 @@
     <type fullname="pigbrain.game.Boxhead.Audio.Music" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Audio.Sequencer" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CameraShake" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.CardData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandAdd" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandSetValue" preserve="all" />
@@ -77,6 +79,7 @@
     <type fullname="pigbrain.game.Boxhead.Trap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.UI.EdgeMarker" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.UI.MessageTickerData" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.UI.TutorialObject" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.UI.UIItems" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Weapon" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.WeaponCache" preserve="all" />
@@ -114,7 +117,9 @@
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/OutlineView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Localization.LocalizationData/KeyValue" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetReader/Line" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
