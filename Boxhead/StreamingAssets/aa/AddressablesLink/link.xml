@@ -14,6 +14,7 @@
     <type fullname="pigbrain.core.Motion.MotionAxisMove" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionScale" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AssetIdentity" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
@@ -119,7 +120,6 @@
     <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Localization.LocalizationData/KeyValue" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Statistics.GoogleSheetReader/Line" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
