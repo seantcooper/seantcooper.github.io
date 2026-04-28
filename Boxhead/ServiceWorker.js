@@ -1,9 +1,9 @@
-const cacheName = "pigbrain.io-Boxhead-0.2.51";
+const cacheName = "pigbrain.io-Boxhead-0.2.53";
 const contentToCache = [
-    "Build/3b23f2ad4c04b79ae36caa0d0722c080.loader.js",
-    "Build/c9334d8b063a7e80e4404f133c110bdd.framework.js.unityweb",
-    "Build/33291b167edba2a08c6ce0eb7c32f568.data.unityweb",
-    "Build/f8158cf257f33a68a683a1d5a091375e.wasm.unityweb",
+    "Build/07d099e57ae549737746e73aa1eec151.loader.js",
+    "Build/6623ff7de81a2bd9b5de69b800ec5763.framework.js.unityweb",
+    "Build/0090e6a2442f46e066d4beeb323dd69f.data.unityweb",
+    "Build/02715cf39f44c7ab03f2dd17429707d5.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
