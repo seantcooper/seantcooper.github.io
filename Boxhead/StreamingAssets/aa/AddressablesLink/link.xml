@@ -30,6 +30,8 @@
     <type fullname="pigbrain.game.Boxhead.CameraShake" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandAdd" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CommandMultibot" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.CommandRnd" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandSetValue" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandStatModify" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.DamageVolume" preserve="all" />
@@ -38,6 +40,7 @@
     <type fullname="pigbrain.game.Boxhead.Enemy" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.BootStrap" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.DoorLock" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.Environment.EnvironmentData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.LevelData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.ObjectList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.PrefabList" preserve="all" />
@@ -120,11 +123,16 @@
     <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Localization.LocalizationData/KeyValue" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetReader/Line" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.ChainReward" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.ChainRewardContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Force" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate/Spread" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandSetValue/TypeProperty" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.CommandWeighted" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.CommandWeightedContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EffectTrigger/Events" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyAttack" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.EnemyDead" preserve="nothing" serialized="true" />
