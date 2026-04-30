@@ -18,6 +18,7 @@
     <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AssetIdentity" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.GroupIndex" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
@@ -114,16 +115,20 @@
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/TitleView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level1View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level1View/TextTMPView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level2View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level2View/TextTMPView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level3View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level3View/TextTMPView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level4View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level4View/TextTMPView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level5View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level5View/TextTMPView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/OutlineView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Localization.LocalizationData/KeyValue" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Statistics.GoogleSheetReader/Line" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.ChainReward" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.ChainRewardContainer" preserve="nothing" serialized="true" />
