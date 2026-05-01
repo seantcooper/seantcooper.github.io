@@ -158,6 +158,7 @@
     <type fullname="pigbrain.game.Boxhead.PlayerFind" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.PlayerFollow" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.PlayerLeave" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.game.Boxhead.PlayerRage" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.ShotPlacement/Barrier" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.ShotPlacement/Fused" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.ShotPlacement/Turret" preserve="nothing" serialized="true" />
