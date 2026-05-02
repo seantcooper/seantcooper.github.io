@@ -7,6 +7,20 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
+    <style>
+      #unity-fullscreen-button {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+        z-index: 10;
+        padding: 8px 12px;
+        border: 0;
+        border-radius: 4px;
+        background: rgba(0,0,0,.65);
+        color: white;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <div id="unity-container">
@@ -18,6 +32,7 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
+      <button id="unity-fullscreen-button" type="button">[ ]</button>
     </div>
     <script>
       window.addEventListener("load", function () {
@@ -31,51 +46,26 @@
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var warningBanner = document.querySelector("#unity-warning");
+      var unityInstance = null;
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      fullscreenButton.onclick = () => {
+        if (unityInstance) unityInstance.SetFullscreen(1);
+        else canvas.requestFullscreen?.();
+      };
 
-      // Shows a temporary message banner/ribbon for a few seconds, or
-      // a permanent error message on top of the canvas if type=='error'.
-      // If type=='warning', a yellow highlight color is used.
-      // Modify or remove this function to customize the visually presented
-      // way that non-critical warnings and error messages are presented to the
-      // user.
-      function unityShowBanner(msg, type) {
-        function updateBannerVisibility() {
-          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
-        }
-        var div = document.createElement('div');
-        div.innerHTML = msg;
-        warningBanner.appendChild(div);
-        if (type == 'error') div.style = 'background: red; padding: 10px;';
-        else {
-          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-          setTimeout(function() {
-            warningBanner.removeChild(div);
-            updateBannerVisibility();
-          }, 5000);
-        }
-        updateBannerVisibility();
-      }
-
+      var version = "0.2.94";
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/c62fad97d49c5f83ebb96c6efd8e230e.loader.js";
+      var loaderUrl = buildUrl + "/bd45f5d27f48045c6c2f54dfa7297fce.loader.js?v=" + version;
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/54254250f90855cab74ee68f4ebee81e.data.unityweb",
-        frameworkUrl: buildUrl + "/45ad2c56e96195989f693f1b6d91df9f.framework.js.unityweb",
-        codeUrl: buildUrl + "/abcb1d1db1d528a5c1d5e3c4b7b4eb9a.wasm.unityweb",
+        dataUrl: buildUrl + "/2bbdfaaec9deec28fba0b231ffc8d8af.data.unityweb?v=" + version,
+        frameworkUrl: buildUrl + "/45ad2c56e96195989f693f1b6d91df9f.framework.js.unityweb?v=" + version,
+        codeUrl: buildUrl + "/ef8f0b29e24e99be5f4d56bff30f9c2c.wasm.unityweb?v=" + version,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "pigbrain.io",
         productName: "Boxhead",
-        productVersion: "0.2.87",
-        showBanner: unityShowBanner,
+        productVersion: "0.2.94",
       };
-
-      // By default Unity keeps WebGL canvas render target size matched with
-      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
-      // Set this to false if you want to decouple this synchronization from
-      // happening inside the engine, and you would instead like to size up
-      // the canvas DOM size and WebGL render target sizes yourself.
-      // config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -85,20 +75,15 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-
       loadingBar.style.display = "block";
-
-      // ByteBrew SDK
-      var bb = document.createElement("script");
-      bb.src = "https://cdn.bytebrew.io/sdk/bytebrew.js";
-      document.body.appendChild(bb);
 
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
-        }).then((unityInstance) => {
+        }).then((instance) => {
+          unityInstance = instance;
           loadingBar.style.display = "none";
         }).catch((message) => {
           alert(message);
