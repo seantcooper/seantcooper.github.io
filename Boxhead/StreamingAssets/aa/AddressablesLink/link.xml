@@ -22,6 +22,7 @@
     <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.ActivePlayer" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.ActiveRoom" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Audio.AudioClips" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Audio.AudioManager" preserve="all" />
