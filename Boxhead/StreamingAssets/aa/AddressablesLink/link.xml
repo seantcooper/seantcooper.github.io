@@ -52,6 +52,7 @@
     <type fullname="pigbrain.game.Boxhead.Environment.RoomPrefabs" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.VolumeBlending" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Ghost" preserve="all" />
+    <type fullname="pigbrain.game.Boxhead.HeadTracking" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Health" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.HealthBar" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.HitEffectMesh" preserve="all" />
