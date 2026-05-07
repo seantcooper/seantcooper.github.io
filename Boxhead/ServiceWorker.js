@@ -1,4 +1,4 @@
-const cacheName = "pigbrain.io-Boxhead-0.2.117";
+const cacheName = "pigbrain.io-Boxhead-0.3.1";
 const contentToCache = [
     "Build/Boxhead.loader.js",
     "Build/Boxhead.framework.js.br",
