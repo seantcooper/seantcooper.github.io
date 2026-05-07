@@ -53,18 +53,18 @@
         else canvas.requestFullscreen?.();
       };
 
-      var version = "0.3.1";
+      var version = "0.3.2";
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Boxhead.loader.js?v=" + version;
+      var loaderUrl = buildUrl + "/BoxheadB.loader.js?v=" + version;
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Boxhead.data.br?v=" + version,
-        frameworkUrl: buildUrl + "/Boxhead.framework.js.br?v=" + version,
-        codeUrl: buildUrl + "/Boxhead.wasm.br?v=" + version,
+        dataUrl: buildUrl + "/BoxheadB.data.unityweb?v=" + version,
+        frameworkUrl: buildUrl + "/BoxheadB.framework.js.unityweb?v=" + version,
+        codeUrl: buildUrl + "/BoxheadB.wasm.unityweb?v=" + version,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "pigbrain.io",
         productName: "Boxhead",
-        productVersion: "0.3.1",
+        productVersion: "0.3.2",
       };
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
