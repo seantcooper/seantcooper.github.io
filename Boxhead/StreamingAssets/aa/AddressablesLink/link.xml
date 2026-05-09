@@ -1,6 +1,9 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AltitudeDestroy" preserve="all" />
+    <type fullname="AnimationController" preserve="all" />
+    <type fullname="AnimatorMesh" preserve="all" />
+    <type fullname="AnimatorMeshData" preserve="all" />
     <type fullname="pigbrain.core.AI.MassForce" preserve="all" />
     <type fullname="pigbrain.core.AI.NavAgentForce" preserve="all" />
     <type fullname="pigbrain.core.Graphics.Billboard" preserve="all" />
@@ -95,6 +98,7 @@
     <type fullname="pigbrain.Generated.ItemCardbase.PrefabView" preserve="all" />
     <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView" preserve="all" />
     <type fullname="ReadRotation" preserve="all" />
+    <type fullname="AnimatorMeshData/Animation" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView/IconView" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
