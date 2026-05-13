@@ -1,37 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="AltitudeDestroy" preserve="all" />
-    <type fullname="AnimationController" preserve="all" />
-    <type fullname="AnimatorMesh" preserve="all" />
-    <type fullname="AnimatorMeshData" preserve="all" />
-    <type fullname="pigbrain.core.AI.MassForce" preserve="all" />
-    <type fullname="pigbrain.core.AI.NavAgentForce" preserve="all" />
-    <type fullname="pigbrain.core.Graphics.Billboard" preserve="all" />
-    <type fullname="pigbrain.core.Graphics.CullingGroupItem" preserve="all" />
-    <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
-    <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
-    <type fullname="pigbrain.core.Localization.LocalizationData" preserve="all" />
-    <type fullname="pigbrain.core.Localization.LocalizationObject" preserve="all" />
-    <type fullname="pigbrain.core.Localization.LocalizationText" preserve="all" />
-    <type fullname="pigbrain.core.Motion.AudioEvent" preserve="all" />
-    <type fullname="pigbrain.core.Motion.MotionAxisMove" preserve="all" />
-    <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
-    <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
-    <type fullname="pigbrain.core.Motion.MotionScale" preserve="all" />
-    <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
-    <type fullname="pigbrain.core.UnityObject.AssetIdentity" preserve="all" />
-    <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
-    <type fullname="pigbrain.core.UnityObject.GroupIndex" preserve="all" />
-    <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
-    <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
-    <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.ActivePlayer" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.ActiveRoom" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Audio.AudioClips" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Audio.AudioManager" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Audio.AudioTrack" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Audio.Music" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Audio.Sequencer" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CameraShake" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandAdd" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.CommandCreate" preserve="all" />
@@ -47,8 +17,6 @@
     <type fullname="pigbrain.game.Boxhead.Environment.DoorLock" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.EnvironmentData" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.LevelData" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Environment.ObjectList" preserve="all" />
-    <type fullname="pigbrain.game.Boxhead.Environment.PrefabList" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomItem" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomLayout" preserve="all" />
@@ -94,48 +62,10 @@
     <type fullname="pigbrain.game.Boxhead.Weapon" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.WeaponCache" preserve="all" />
     <type fullname="pigbrain.game.Boxhead.WeaponCarry" preserve="all" />
-    <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView" preserve="all" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView" preserve="all" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView" preserve="all" />
+    <type fullname="pigbrain.generated.CharacterIconBase.PrefabView" preserve="all" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView" preserve="all" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView" preserve="all" />
     <type fullname="ReadRotation" preserve="all" />
-    <type fullname="AnimatorMeshData/Animation" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.CharacterIconBase.PrefabView/IconView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelDescriptionView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelDescriptionView/TextDescriptionView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelIconView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelStatsView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelStatsView/TextStatsView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelTitleView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.ItemCardbase.PrefabView/ContentView/PanelTitleView/TextTitleView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView/ButtonAddView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ButtonsView/ButtonRemoveView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/AmmoInfinityView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/AmmoView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/IconView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/ReloadView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/ContentView/TitleView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level1View" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level1View/TextTMPView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level2View" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level2View/TextTMPView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level3View" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level3View/TextTMPView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level4View" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level4View/TextTMPView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level5View" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/LevelsView/Level5View/TextTMPView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.Generated.WeaponIconBase.PrefabView/OutlineView" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Localization.LocalizationData/KeyValue" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.ChainReward" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.ChainRewardContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.CommandContainer" preserve="nothing" serialized="true" />
@@ -154,8 +84,6 @@
     <type fullname="pigbrain.game.Boxhead.EnemyRainOfFire" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.LevelData/Level/Item" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/Info" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Environment.PrefabList/PrefabContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder/Events" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Environment.RoomBuilder/PrefabSet" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.PlayerControl" preserve="nothing" serialized="true" />
@@ -179,10 +107,85 @@
     <type fullname="pigbrain.game.Boxhead.Trap/Particles" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Trap/Spikes" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.game.Boxhead.Trap/Weapon" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Audio.AudioClips/Clip" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Audio.AudioClips/ClipContainer" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Audio.Music/MusicTrack" preserve="nothing" serialized="true" />
-    <type fullname="pigbrain.game.Boxhead.Audio.Sequencer/Sequence" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.CharacterIconBase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.CharacterIconBase.PrefabView/IconView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/BackgroundView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView/PanelDescriptionView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView/PanelDescriptionView/TextDescriptionView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView/PanelIconView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView/PanelStatsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView/PanelStatsView/TextStatsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView/PanelTitleView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.ItemCardbase.PrefabView/ContentView/PanelTitleView/TextTitleView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ButtonsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ButtonsView/ButtonAddView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ButtonsView/ButtonRemoveView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ContentView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ContentView/AmmoInfinityView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ContentView/AmmoView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ContentView/IconView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ContentView/ReloadView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/ContentView/TitleView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level1View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level1View/TextTMPView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level2View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level2View/TextTMPView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level3View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level3View/TextTMPView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level4View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level4View/TextTMPView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level5View" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/LevelsView/Level5View/TextTMPView" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.generated.WeaponIconBase.PrefabView/OutlineView" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="pigbrain.core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AltitudeDestroy" preserve="all" />
+    <type fullname="AnimationController" preserve="all" />
+    <type fullname="AnimatorMesh" preserve="all" />
+    <type fullname="AnimatorMeshData" preserve="all" />
+    <type fullname="pigbrain.core.AI.MassForce" preserve="all" />
+    <type fullname="pigbrain.core.AI.NavAgentForce" preserve="all" />
+    <type fullname="pigbrain.core.Audio.AudioClips" preserve="all" />
+    <type fullname="pigbrain.core.Audio.AudioEvent" preserve="all" />
+    <type fullname="pigbrain.core.Audio.AudioManager" preserve="all" />
+    <type fullname="pigbrain.core.Audio.AudioTrack" preserve="all" />
+    <type fullname="pigbrain.core.Audio.Music" preserve="all" />
+    <type fullname="pigbrain.core.Audio.Sequencer" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.Billboard" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.CullingGroupItem" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.CullingGroupManager" preserve="all" />
+    <type fullname="pigbrain.core.Graphics.SpriteMeshRenderer" preserve="all" />
+    <type fullname="pigbrain.core.Localization.LocalizationData" preserve="all" />
+    <type fullname="pigbrain.core.Localization.LocalizationObject" preserve="all" />
+    <type fullname="pigbrain.core.Localization.LocalizationText" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionAxisMove" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
+    <type fullname="pigbrain.core.Motion.MotionScale" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.AssetIdentity" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.GroupIndex" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.ObjectList" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.PrefabList" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
+    <type fullname="AnimatorMeshData/Animation" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Audio.ClipLink" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Localization.LocalizationData/KeyValue" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.GoogleSheetReader/Line" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.UnityObject.PrefabList/Info" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.UnityObject.PrefabList/PrefabContainer" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Audio.AudioClips/Clip" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Audio.AudioClips/ClipContainer" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Audio.Music/MusicTrack" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Audio.Sequencer/Sequence" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />

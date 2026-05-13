@@ -1,9 +1,9 @@
-const cacheName = "pigbrain.io-Boxhead-0.3.11";
+const cacheName = "pigbrain.io-Boxhead Dungeon-0.3.31";
 const contentToCache = [
-    "Build/Boxhead-0.3.11-B.loader.js",
-    "Build/Boxhead-0.3.11-B.framework.js.unityweb",
-    "Build/Boxhead-0.3.11-B.data.unityweb",
-    "Build/Boxhead-0.3.11-B.wasm.unityweb",
+    "Build/Boxhead Dungeon-0.3.31-B.loader.js",
+    "Build/Boxhead Dungeon-0.3.31-B.framework.js.unityweb",
+    "Build/Boxhead Dungeon-0.3.31-B.data.unityweb",
+    "Build/Boxhead Dungeon-0.3.31-B.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
