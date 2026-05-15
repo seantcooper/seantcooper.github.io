@@ -147,6 +147,7 @@
     <type fullname="AnimatorMeshData" preserve="all" />
     <type fullname="pigbrain.core.AI.MassForce" preserve="all" />
     <type fullname="pigbrain.core.AI.NavAgentForce" preserve="all" />
+    <type fullname="pigbrain.core.AI.NavMeshAgentArea" preserve="all" />
     <type fullname="pigbrain.core.Audio.AudioClips" preserve="all" />
     <type fullname="pigbrain.core.Audio.AudioEvent" preserve="all" />
     <type fullname="pigbrain.core.Audio.AudioManager" preserve="all" />
@@ -164,24 +165,29 @@
     <type fullname="pigbrain.core.Motion.MotionDrop" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionEvent" preserve="all" />
     <type fullname="pigbrain.core.Motion.MotionScale" preserve="all" />
+    <type fullname="pigbrain.core.Statistics.SaveData" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AnimatorMessages" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.AssetIdentity" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.Catalog" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.GroupIndex" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.ObjectList" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.PoolGroup" preserve="all" />
+    <type fullname="pigbrain.core.UnityObject.PoolingObject" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.PrefabList" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TransformMotion" preserve="all" />
     <type fullname="pigbrain.core.UnityObject.TriggerMessages" preserve="all" />
     <type fullname="AnimatorMeshData/Animation" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.AI.NavMeshAgentArea/Area" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Audio.ClipLink" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxFloat" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Geom.MinMaxInt" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Localization.LocalizationData/KeyValue" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetReader" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Statistics.GoogleSheetReader/Line" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.Statistics.Property" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.UnityObject.PrefabList/Info" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.UnityObject.PrefabList/PrefabContainer" preserve="nothing" serialized="true" />
+    <type fullname="pigbrain.core.UnityObject.PrefabObject" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Audio.AudioClips/Clip" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Audio.AudioClips/ClipContainer" preserve="nothing" serialized="true" />
     <type fullname="pigbrain.core.Audio.Music/MusicTrack" preserve="nothing" serialized="true" />
