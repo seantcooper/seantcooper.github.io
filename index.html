@@ -1,8 +1,242 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="refresh" content="0; url=/Boxhead/">
-<script>location.replace('/Boxhead/');</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boxhead Dungeons</title>
+<style>
+* { box-sizing:border-box; }
+html, body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#111;
+    color:white;
+    overflow-x:hidden;
+}
+
+body {
+    background:
+        radial-gradient(circle at top, #333 0%, #111 60%),
+        #111;
+}
+
+.container {
+    width:min(1100px, calc(100% - 40px));
+    margin:auto;
+}
+
+.hero {
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:80px 0;
+}
+
+.logo {
+    width:min(700px, 90vw);
+    margin-bottom:30px;
+}
+
+h1 {
+    font-size:clamp(40px, 7vw, 90px);
+    margin:0 0 10px;
+    line-height:0.9;
+}
+
+.subtitle {
+    font-size:clamp(18px, 2vw, 26px);
+    color:#ccc;
+    max-width:700px;
+    margin:0 auto 40px;
+    line-height:1.4;
+}
+
+.buttons {
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.button {
+    display:inline-block;
+    padding:18px 32px;
+    border-radius:12px;
+    text-decoration:none;
+    color:white;
+    background:#d62828;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.2s transform, 0.2s background;
+}
+
+.button:hover {
+    transform:scale(1.05);
+    background:#ef233c;
+}
+
+.button.secondary {
+    background:#333;
+}
+
+.section {
+    padding:100px 0;
+}
+
+.section h2 {
+    font-size:42px;
+    margin:0 0 20px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:24px;
+}
+
+.video {
+    position:relative;
+    width:100%;
+    aspect-ratio:16/9;
+    border-radius:20px;
+    overflow:hidden;
+    border:1px solid #333;
+    background:#000;
+}
+
+.video iframe {
+    width:100%;
+    height:100%;
+    border:0;
+}
+
+.card {
+    background:#1c1c1c;
+    border:1px solid #333;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.card img {
+    width:100%;
+    display:block;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    background:#222;
+}
+
+.card-content {
+    padding:20px;
+}
+
+.card h3 {
+    margin:0 0 10px;
+    font-size:24px;
+}
+
+.card p {
+    margin:0;
+    color:#bbb;
+    line-height:1.5;
+}
+
+.about {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img {
+    width:100%;
+    border-radius:20px;
+    background:#222;
+}
+
+.footer {
+    border-top:1px solid #333;
+    padding:40px 0;
+    text-align:center;
+    color:#888;
+}
+
+@media (max-width:800px) {
+    .about {
+        grid-template-columns:1fr;
+    }
+}
+</style>
 </head>
-<body></body>
+<body>
+
+<section class="hero">
+    <div class="container">
+
+        <!-- Replace with your logo -->
+        <!-- <img class="logo" src="logo.png"> -->
+
+        <h1>BOXHEAD<br>DUNGEONS</h1>
+
+        <p class="subtitle">
+            Celebrating 20 years of Boxhead. Explosive combat, rage mode,
+            dungeon crawling and endless waves of enemies.
+        </p>
+
+        <div class="buttons">
+            <a class="button" href="#" onclick="window.open('https://seantcooper.itch.io/boxhead-dungeons','boxhead','popup,width=1600,height=900,resizable=yes');return false;">PLAY NOW</a>
+        </div>
+
+        <div style="height:50px"></div>
+
+        <div class="video">
+<iframe
+    src="https://www.youtube.com/embed/XlHUh-O-XdE"
+    allowfullscreen>
+</iframe>
+        </div>
+
+        <div style="height:50px"></div>
+
+        <div class="grid">
+            <div class="card"><img src="root/BxhD-1.png"></div>
+            <div class="card"><img src="root/BxhD-2.png"></div>
+            <div class="card"><img src="root/BxhD-3.png"></div>
+            <div class="card"><img src="root/BxhD-4.png"></div>
+            <div class="card"><img src="root/BxhD-5.png"></div>
+            <div class="card"><img src="root/BxhD-6.png"></div>
+            <div class="card"><img src="root/BxhD-7.png"></div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <div class="container about">
+
+        <div>
+            <h2>20 Years Later</h2>
+            <p style="line-height:1.7;color:#bbb;font-size:18px;">
+                Boxhead started over two decades ago and went on to be played
+                billions of times worldwide. This latest installment continues
+                the legacy with fast gameplay, dungeon exploration and intense
+                survival combat.
+            </p>
+        </div>
+
+        <a href="https://seantcooper.itch.io/boxhead-dungeons" target="_blank" rel="noopener noreferrer">
+            <img src="root/Banner 900x600.png">
+        </a>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        © 2026 Pigbrain.io
+    </div>
+</footer>
+
+</body>
 </html>
