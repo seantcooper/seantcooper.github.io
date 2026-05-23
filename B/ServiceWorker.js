@@ -1,4 +1,4 @@
-const cacheName = "pigbrain.io-Skilsort-0.1.15";
+const cacheName = "pigbrain.io-Skilsort-0.1.16";
 const contentToCache = [
     "Build/A.loader.js",
     "Build/A.framework.js.unityweb",
