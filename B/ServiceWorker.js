@@ -1,9 +1,9 @@
-const cacheName = "pigbrain.io-Skilsort-0.1.19";
+const cacheName = "MassiveHadron-TileStormEvolution-0.1.8";
 const contentToCache = [
-    "Build/A.loader.js",
-    "Build/A.framework.js.unityweb",
-    "Build/A.data.unityweb",
-    "Build/A.wasm.unityweb",
+    "Build/750909a7b3fa20b0428a44bc3899eb0e.loader.js",
+    "Build/60b51095c5878b43c4413d011dfaa435.framework.js.unityweb",
+    "Build/2ae8f35beb36ccf2be875f6d7643132c.data.unityweb",
+    "Build/47b44350954aa49d47757e00d5877d45.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
